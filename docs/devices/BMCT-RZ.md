@@ -35,7 +35,9 @@ Mode 2: Pulse
 In this mode, the device behaves like a button. The circuit is briefly closed and the connected devices react to the short current pulse. A good example of this is stairwell lighting.
 <!-- Notes END: Do not edit below this line -->
 
+## Pairing
 
+The device requires a setting code to be properly identified and controlled. The install code on the device does not apply. In order to properly install the device, flash the QR code on the device with a phone or QR code reader. The result delivers a code of 91 to 95 characters. In the MQTT2Zigbee interface, when the device is displayed in the list during the pairing, go to "Settings" >> "Tools" >> "Add install code" and apply the code obtained. Zigbee2MQTT will identify the device and enables its functionalities.
 
 ## Options
 *[How to use device type specific configuration](../guide/configuration/devices-groups.md#specific-device-options)*
